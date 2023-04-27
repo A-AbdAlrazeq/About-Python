@@ -1,0 +1,128 @@
+* {
+  padding: 0px;
+}
+.contaniar {
+  background-color: #245076;
+  width: 1000px;
+  margin: 0 auto;
+}
+header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+header .right {
+  text-align: center;
+}
+header img {
+  height: 120px;
+}
+header a {
+  color: yellow;
+}
+::placeholder {
+  text-align: center;
+}
+.search {
+  padding: 5px;
+  margin: 5px;
+  height: 40px;
+  width: 220px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.575);
+}
+.srch {
+  border: 2px solid grey;
+  margin: auto;
+  width: 150px;
+  height: 30px;
+}
+.btn {
+  margin: auto;
+  padding: 5px;
+  background-color: #245076;
+  border: 2px solid grey;
+  border-radius: 5px;
+  color: white;
+  font-size: medium;
+}
+.nav {
+  width: 90%;
+  background-color: #3376b1;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 2px 2px black;
+}
+.nav-title {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.sec1 {
+  display: flex;
+  justify-content: space-around;
+}
+.list li {
+  margin-bottom: 15px;
+}
+.list a {
+  color: white;
+}
+.history {
+  width: 400px;
+}
+.history p {
+  color: white;
+}
+.history h3 {
+  color: gold;
+}
+.sec2 {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.sec2-first {
+  margin-top: 5px;
+  text-align: center;
+  width: 400px;
+  margin-bottom: 5px;
+  border-top: 3px solid #245076;
+}
+.sec2-first ul {
+  list-style-type: square;
+}
+.sec2-first ul li text {
+  color: #245076;
+}
+.sec2-sec {
+  margin-top: 5px;
+  text-align: center;
+  width: 400px;
+  margin-bottom: 5px;
+  border-top: 3px solid #245076;
+}
+.sec2-sec ul {
+  list-style-type: square;
+}
+.sec2-sec text {
+  color: #245076;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+.footer h3 {
+  color: #262f4b;
+}
+.end {
+  text-align: center;
+}
+.end text {
+  font-size: small;
+  color: #262f4b;
+}
